@@ -1,0 +1,41 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+
+   .aside {
+      display: none;
+   }
+   .e div{max-width: unset;}
+.left {max-width: unset;}
+   .person {max-width: unset;}
+
+   .gilakebi {
+      flex-wrap: wrap;
+   }
+
+   .center {
+      gap: 24px;
+   }
+
+   .info {
+      flex-direction: column-reverse;
+      width: 100%;
+   }
+
+   .right {
+      height: 718px;
+      max-width: unset;
+   }
+
+   .right select {
+      width: 100%;
+      max-width: unset;
+   }
+
+   .location {
+      min-height: 200px;
+   }
+
+   .person {
+      gap: 24px;
+   }
+}

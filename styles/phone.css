@@ -1,0 +1,89 @@
+@media screen and (max-width:768px) {
+
+   .aside {
+      display: none;
+   }
+
+   .d {
+      width: 100%;
+      gap: 12px;
+   }
+
+   .header ul {
+      gap: 8px;
+   }
+
+   .header a {
+      font-size: 14px;
+   }
+
+   .top {
+      width: 100%
+   }
+
+   .header {
+      flex-direction: column;
+      gap: 16px;
+      align-items:center;
+      width: 100%;
+   }
+   .e {flex-direction: column;}
+   .e >div {max-width: unset;}
+   .header >div{
+      justify-content: center;
+   }
+
+   .info {
+      flex-direction: column-reverse;
+      width: 100%;
+      align-items: center;
+   }
+
+   .gilakebi {
+      flex-wrap: wrap
+   }
+
+   .ring.aic.jcs h1 {
+      font-size: 24px;
+      line-height: 32px;
+   }
+
+   .top button {
+      font-size: 11px;
+      padding: 4px 8px;
+      max-height: 30px;
+
+   }
+
+   .qveda {
+      flex-direction: column;
+   }
+
+   .right {
+      width: 100%;
+      height: unset;
+      max-width: unset;
+   }
+
+   .location {
+      min-height: 200px;
+      height: 0%;
+   }
+
+   .right select {
+      width: 100%;
+      max-width: unset;
+   }
+
+   .person {
+      max-width: unset;
+   }
+
+   .b {
+      justify-content: space-between;
+   }
+
+   .addition {
+      max-width: unset;
+   }
+}
